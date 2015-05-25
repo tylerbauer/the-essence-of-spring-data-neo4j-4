@@ -17,7 +17,7 @@ Before we write any code, we're going to model our domain as a graph. Flavorwock
 We have two entities- an Ingredient and a Category. An Ingredient belongs to a Category. An Ingredient also pairs with other Ingredients, with some degree of affinity. 
 Here's what it looks like:
 
-![GraphModel](https://www.dropbox.com/s/bw6u56evfz07s4o/air-graph-model.png?dl=0)
+<img src="https://www.dropbox.com/s/bw6u56evfz07s4o/air-graph-model.png?dl=0">)
 
 An Ingredient has a single relationship `HAS_CATEGORY` to a Category node. It also has potentially many `PAIRS_WITH` relationships to other Ingredients.
 

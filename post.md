@@ -17,7 +17,7 @@ Before we write any code, we're going to model our domain as a graph. Flavorwock
 We have two entities- an Ingredient and a Category. An Ingredient belongs to a Category. An Ingredient also pairs with other Ingredients, with some degree of affinity. 
 Here's what it looks like:
 
-<img src="https://photos-5.dropbox.com/t/2/AAAwwIUbjYC-vC0tIdc-1GQJkJdvzpPLvHiYMD82xpPrIA/12/15330610/png/32x32/1/1432584000/0/2/air-graph-model.png/CLLapwcgASACIAMgBCAFIAYoASgC/j9jQjy2DTU-YM7Aobtc1Nbz1LcMVhOo0ULnO4qY-5vw?size=1024x768&size_mode=2">)
+<img src="https://photos-5.dropbox.com/t/2/AAAwwIUbjYC-vC0tIdc-1GQJkJdvzpPLvHiYMD82xpPrIA/12/15330610/png/32x32/1/1432584000/0/2/air-graph-model.png/CLLapwcgASACIAMgBCAFIAYoASgC/j9jQjy2DTU-YM7Aobtc1Nbz1LcMVhOo0ULnO4qY-5vw?size=1024x768&size_mode=2">
 
 An Ingredient has a single relationship `HAS_CATEGORY` to a Category node. It also has potentially many `PAIRS_WITH` relationships to other Ingredients.
 
